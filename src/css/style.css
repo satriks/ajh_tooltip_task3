@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  /* color: #520909d1; */
+  color: #fff;
+}
+
+.form {
+  width: 400px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dbdfde;
+  padding:10px;
+  background-image: url('../images/plane.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+label{
+  font-size: 20px;
+  display: block;
+  margin-left: 10px;
+}
+
+#from, #where {
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.from-refresh{
+  display: flex;
+  justify-content: space-between;
+}
+#from{
+  position: relative;
+  width: 75%;
+  height: 100%;
+  /* margin: auto; */
+}
+.refresh{
+  box-sizing: border-box;
+  /* margin-top: 7px; */
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  background-image: url("../images/refresh.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+}
+#where{
+  width: 95%;
+  /* margin: auto; */
+}
+
+.container {
+  background-blend-mode: normal;
+  width: 380px;
+  height: 600px;  
+  background-color: black;
+  opacity: 0.7;
+  margin: auto;
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: space-between;
+
+}
+
+.data-for-trip{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.counter-block{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.counter-checkdox{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.counter-block > label{
+  text-align: center;
+}
+
+.counter{
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  height: 25px;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.counter > span{
+  color: tomato;
+  font-size: 18px;
+  align-self: center;
+}
+
+.counter > button{
+  background-color:bisque;
+  border-radius: 7%;
+  width: 25px;
+  height: 25px;
+}
+#one-way{
+  width: 20px;
+  height: 20px;
+  justify-self: center;
+  align-items: center;
+}
+
+.find-tickets{
+  height: 45px;
+  background-color: rgb(94, 253, 14);
+}
