@@ -56,7 +56,6 @@ export class Calendar {
     const arr = Array.from(document.querySelectorAll('td'))
 
     arr.forEach((el) => {
-
       if (el.textContent === this.moment.format('D') && this.monthEl === (this.moment.format('M') - 1) && this.year === +this.moment.format('YYYY')) {
         el.classList.add('today')
       }
