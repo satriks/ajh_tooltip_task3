@@ -142,6 +142,10 @@ label{
   color: gray;
   cursor: no-drop;
 }
+.today {
+  border: 1px solid brown;
+  background-color: brown;
+}
 
 .calendar {
   position: absolute;
@@ -151,6 +155,7 @@ label{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .calendar__header {
@@ -177,3 +182,31 @@ label{
   height: 30px;
   margin: 10px 10px;
 }
+
+.date-round{
+  display: flex;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+.round-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.round-wrapper > input {
+  height: 30px;
+}
+
+.invalid-date{
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(248, 21, 119);
+  border: 2px solid orangered;
+}
+.choose{
+  border: 1px solid red;
+  border-radius: 50%;
+}
+

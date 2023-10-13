@@ -1,7 +1,7 @@
 const path = require('path')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
+const MomentLocalesPlugin = require('moment-locales-webpack-plugin')
 
 module.exports = {
   mode: 'production',
@@ -36,7 +36,7 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new MomentLocalesPlugin({
-      localesToKeep: ['es-us', 'ru'],
-  })
+      localesToKeep: ['es-us', 'ru']
+    })
   ]
 }
