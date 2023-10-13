@@ -25,7 +25,9 @@ h1 {
 label{
   font-size: 20px;
   display: block;
+  margin: 10px 0;
   margin-left: 10px;
+
 }
 
 #from, #where {
@@ -44,6 +46,7 @@ label{
   height: 100%;
   /* margin: auto; */
 }
+
 .refresh{
   box-sizing: border-box;
   /* margin-top: 7px; */
@@ -55,6 +58,7 @@ label{
   background-size: cover;
   background-position: center;
   background-color: #000;
+  cursor: pointer;
 }
 #where{
   width: 95%;
@@ -64,7 +68,7 @@ label{
 .container {
   background-blend-mode: normal;
   width: 380px;
-  height: 600px;  
+  height: auto;  
   background-color: black;
   opacity: 0.7;
   margin: auto;
@@ -81,6 +85,7 @@ label{
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 15px;
+  margin: 10px 0;
 }
 
 .counter-block{
@@ -118,15 +123,57 @@ label{
   border-radius: 7%;
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 #one-way{
   width: 20px;
   height: 20px;
   justify-self: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .find-tickets{
   height: 45px;
   background-color: rgb(94, 253, 14);
+  cursor: pointer;
+}
+.inactive {
+  color: gray;
+  cursor: no-drop;
+}
+
+.calendar {
+  position: absolute;
+}
+
+.calendar-widget{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calendar__header {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.calendar__title {
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+.next, .prev {
+  cursor: pointer;
+}
+
+.calendar-widget > table {
+  text-align: center;
+}
+
+#date {
+  width: 95%;
+  height: 30px;
+  margin: 10px 10px;
 }

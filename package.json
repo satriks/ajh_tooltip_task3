@@ -1,5 +1,5 @@
 {
-  "name": "ahj_tooltip_2",
+  "name": "ahj_tooltip_3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "coursar",
+  "author": "satriks",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.22.9",
